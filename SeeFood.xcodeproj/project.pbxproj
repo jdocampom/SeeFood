@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8669FAE02596DA97002F797D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8669FADF2596DA97002F797D /* Inceptionv3.mlmodel */; };
 		869C607A2596ADC6001459DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C60792596ADC6001459DF /* AppDelegate.swift */; };
 		869C607C2596ADC6001459DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C607B2596ADC6001459DF /* SceneDelegate.swift */; };
 		869C607E2596ADC7001459DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C607D2596ADC7001459DF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8669FADF2596DA97002F797D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		869C60762596ADC6001459DF /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		869C60792596ADC6001459DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		869C607B2596ADC6001459DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				869C60822596ADC8001459DF /* Assets.xcassets */,
 				869C60842596ADC8001459DF /* LaunchScreen.storyboard */,
 				869C60872596ADC8001459DF /* Info.plist */,
+				8669FADF2596DA97002F797D /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -102,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 869C60712596ADC6001459DF /* Build configuration list for PBXProject "SeeFood" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				869C607E2596ADC7001459DF /* ViewController.swift in Sources */,
+				8669FAE02596DA97002F797D /* Inceptionv3.mlmodel in Sources */,
 				869C607A2596ADC6001459DF /* AppDelegate.swift in Sources */,
 				869C607C2596ADC6001459DF /* SceneDelegate.swift in Sources */,
 			);
